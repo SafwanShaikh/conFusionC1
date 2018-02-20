@@ -13,4 +13,10 @@ $(document).ready(function () {
             $("#carousel-button").children("span").addClass('fa-pause');
         }
     });
+    $("#loginModalLink").click(function(){
+        $("#loginModal").modal('show');
+    });
+    $("#reserveTableModalLink").click(function() {
+        $("#reserveModal").modal('show');
+    });
 });
